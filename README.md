@@ -13,8 +13,10 @@ raised_hands
 Start of with the following:
 - Use file called `task2.html`.
 - Write the JavaScript needed in a ﬁle called `task2.js`.
+
 - Create a function which counts and displays the number of times a `button` has been clicked.
 - Create a function to convert rands into dollars, euros and pounds.
+
 - Create a function which creates a drop-down menu with 25 option elements and add it to the HTML page you have created. Each option element should display the number of the option. `Use a loop`.
 
 ## Bonus:
