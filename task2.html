@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
+</head>
+
+<body>
+
+
     <h1>The first heading</h1>
 
     <p>
-      This is an example of a paragraph. Paragraphs usually contain more text
-      than headings and are not used by search engines to structure the content
-      of your web page.
+        This is an example of a paragraph. Paragraphs usually contain more text than headings and are not used by search engines to structure the content of your web page.
     </p>
 
-    <button id="button">Clicked 0</button><br />
+    <button id="button" onclick="cal()">Clicked 0</button><br />
     <br />
     <br />
     <label>Enter rands value</label>
     <input id="rands" />
     <br /><br />
-    <button id="convert">convert</button><br /><br />
+    <button id="convert" onclick="convert()">convert</button><br /><br />
     <label id="dollars"></label> <br />
     <label id="euros"></label> <br />
     <label id="pounds"></label> <br />
     <br />
     <label for="elements">Choose an option:</label>
-    <select name="elements" id="elements"></select>
-    <script type="text/javascript" src="task3.js"></script>
-  </body>
+    <select name="elements" id="elements" onclick="op()"></select>
+    <script type="text/javascript" src="task2.js"></script>
+</body>
+
 </html>
