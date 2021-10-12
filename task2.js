@@ -25,11 +25,15 @@ function changeCur(){
     toPound.innerHTML = chnToPounds
 }
 
-function addItem1(){
-    const dropDown = document.querySelector("#elements")
 
-    for (let i =0 ; i<25;i++){
-        dropDown.innerHTML = document.createElement("option");
-        dropDown.option.add(i);
+    const dropDown = document.querySelector("#elements")
+    
+    // const opTxt = document.createTextNode("")
+    for (let i =0 ; i<=25;i++){
+        const op = document.createElement("option")
+        const opTxt = document.createTextNode(i);
+        op.appendChild(opTxt);
+        dropDown.appendChild(op)
+
     }
-}
+    
