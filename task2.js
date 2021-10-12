@@ -28,8 +28,10 @@ function changeCur(){
 
     const dropDown = document.querySelector("#elements")
     
-    // const opTxt = document.createTextNode("")
     for (let i =0 ; i<=25;i++){
+
+        //The idea of the below code was taken from https://www.javascripttutorial.net/javascript-dom/javascript-add-remove-options/
+
         const op = document.createElement("option")
         const opTxt = document.createTextNode(i);
         op.appendChild(opTxt);
