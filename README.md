@@ -1,21 +1,13 @@
 # DOM HW
+- Result :
 
-## Dom Task1
-Start of with Modifying the basic HTML page called math.html
-- Create a JavaScript ﬁle called task1.js.
-- Modify the HTML and write the JavaScript necessary to create a web page that allows a user to do some basic mathematical computations(addition, multiplication and mod).
-- The user should be able to enter numbers and press on a button to show the results of the calculation.
-white_check_mark
-eyes
-raised_hands
+## Dom Task1:
+![image](https://user-images.githubusercontent.com/72529306/137045424-5fd62c78-91a2-4e37-a60b-4ded53a40330.png)
+
 
 ## Dom Task2
-Start of with the following:
-- Use file called `task2.html`.
-- Write the JavaScript needed in a ﬁle called `task2.js`.
-- Create a function which counts and displays the number of times a `button` has been clicked.
-- Create a function to convert rands into dollars, euros and pounds.
-- Create a function which creates a drop-down menu with 25 option elements and add it to the HTML page you have created. Each option element should display the number of the option. `Use a loop`.
+![image](https://user-images.githubusercontent.com/72529306/137045520-1fa63c62-2567-4428-a100-eda342e799d8.png)
+
 
 ## Bonus:
 - Create a calculator:
