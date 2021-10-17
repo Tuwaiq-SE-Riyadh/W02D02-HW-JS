@@ -22,3 +22,6 @@ Start of with the following:
 	- It should have the layout similar to the calculator on your computer.
     - Use CSS to help you style the layout.
     - Use JavaScript functions to implement its operation.
+
+
+
